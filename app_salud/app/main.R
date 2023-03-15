@@ -192,7 +192,7 @@ ui <- function(id) {
                                          valueBox(width = 12,value = shiny::h3("42%", style = 'font-size:27px'),color = "teal",subtitle="Suspenciones debido a la causal paciente",
                                                   icon = icon("check")),valueBox(width = 12,value=shiny::h3("23%", style = 'font-size:27px'),color = "teal",subtitle="Suspenciones debido a la causal equipo quirúrgico",icon = icon("check")))),
                 fluidRow(width=12,
-                         box(grafico_sankey$ui(ns("grafico_sankey")),width=12,height="900px",headerBorder = FALSE,collapsible = FALSE,closable = FALSE,elevation = 2, status = "lightblue")),
+                         box(grafico_sankey$ui(ns("grafico_sankey")),width=12,height="700px",headerBorder = FALSE,collapsible = FALSE,closable = FALSE,elevation = 2, status = "lightblue")),
                 fluidRow(width=12,
                          box(width=6,headerBorder = FALSE,collapsible = FALSE,closable = FALSE,elevation = 2),
                          box(width=6,headerBorder = FALSE,collapsible = FALSE,closable = FALSE,elevation = 2))

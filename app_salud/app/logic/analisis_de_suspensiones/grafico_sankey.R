@@ -112,7 +112,7 @@ server <- function(id) {
         echarts4r::e_charts() |> 
         echarts4r::e_sankey(source, target, value,layoutIterations = 6) |> 
         echarts4r::e_title("Sankey chart") |>
-        echarts4r::e_dims(height = "900px", width = "auto") |>
+        echarts4r::e_dims(height = "700px", width = "auto") |>
         echarts4r::e_theme("walden")|> 
         echarts4r::e_tooltip() 
 
